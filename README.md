@@ -2,7 +2,7 @@
 
 ## Task 3: Diamond Model Vertex Extraction
 
-The following analysis is based on the CISA Advisory**AA22-110A: 2022 Russian Cyber Activity Targeting U.S. Critical Infrastructure**.
+The following analysis is based on the CISA Advisory **AA22-110A: 2022 Russian Cyber Activity Targeting U.S. Critical Infrastructure**.
 
 | **Vertex**     | **Extracted Information**                                           | **Supporting Evidence from Report**                                                                                              |
 |----------------|---------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
@@ -15,27 +15,33 @@ The following analysis is based on the CISA Advisory**AA22-110A: 2022 Russian Cy
 
 ## Task 5: Threat Actor Profile Summary
 
-The threat actor analyzed in this report is a **Russian state-sponsored cyber group**, specifically **APT29** (Cozy Bear) and **Sandworm**. These groups are affiliated with the **SVR** (Russian Foreign Intelligence Service) and the **GRU** (Russian Military Intelligence), and have been implicated in cyber operations targeting critical U.S. infrastructure.
+The targeted threat actor, which was assessed in this report, is an affiliated cyber group sponsored by a Russian state, namely **APT29 (Cozy Bear)** and **Sandworm**. These teams are part of the **SVR (Russian Foreign Intelligence Service)** and the **GRU (Russian Military Intelligence)**, and have been engaged in cyber attacks against critical American infrastructure.
 
-Their primary attack vector is the **exploitation of known vulnerabilities**, such as the **Log4j vulnerability**. The actors use **Remote Access Trojans (RATs)** and **VPN services** to gain unauthorized access to victim networks. Once inside, they perform **credential dumping**, **deploy ransomware**, and conduct **data exfiltration** to disrupt operations and steal sensitive information.
+They mainly use these vulnerabilities as their attack vector, including the **Log4j vulnerability**. The attackers gain access to victim networks without authorization by using **Remote Access Trojans (RATs)** and **VPN services**. Upon entry, they engage in **credential dumping** and install **ransomware** to disrupt and steal sensitive data.
 
-**Diamond Model Analysis**:  
-The **adversary** in this case is a Russian government-backed cyber group, known for its sophisticated attacks against critical infrastructure. Their **infrastructure** includes compromised VPNs, RATs, and IT/OT systems vulnerabilities. Their **capabilities** include leveraging well-known vulnerabilities, conducting credential-based attacks, deploying ransomware, and exfiltrating data. The **victims** of these attacks are primarily U.S. critical infrastructure sectors like energy, communications, and manufacturing.
+### Diamond Model Analysis:
+The opponent here is a **Russian state-sponsored cyber-unit**, which is known for complex attacks against critical infrastructure. They have a compromised infrastructure of **VPNs**, **RATs**, and **IT/OT systems vulnerabilities**. Their general skills include exploiting popular vulnerabilities, mounting credential-based attacks, installing ransomware, and stealing data. The main targets of these attacks are **U.S. critical infrastructure** industries such as energy, communications, and manufacturing.
 
-**Mitigation strategies** provided by CISA include **timely patching** of vulnerabilities (particularly Log4j), **segmentation of OT and IT networks**, **multi-factor authentication** for remote access, and **continuous monitoring** for anomalous activities. These recommendations aim to improve resilience and reduce the impact of future attacks.
+**Mitigation Strategies** provided by CISA include:
+- **Timely vulnerability patches**, especially for Log4j
+- **OT and IT network segmentation**
+- **Multi-factor authentication** when accessing the network remotely
+- **Continuous monitoring** of unusual operations
+
+Such suggestions will significantly reduce the effectiveness of future attacks and enhance overall system resilience.
 
 ---
 
 ## Task 6: Reflection
 
 ### **1. How does the Diamond Model help in understanding threat actors?**
-The Diamond Model helps by breaking down an attack into four essential components: **Adversary**, **Infrastructure**, **Capability**, and **Victim**. This model provides a structured and comprehensive understanding of the attack process, showing the relationships between the various elements involved. By analyzing each vertex and its connections, defenders can gain valuable insights into the attacker's motivations, methods, tools, and target profiles, leading to a clearer picture of the threat landscape.
+The Diamond Model assists in this by subdividing an attack into four fundamental elements the Adversary, Infrastructure, Capability, and Victim. The model provides a systematic and detailed comprehension of the attack procedure that does reveal the association among the different components involved. The analysis of each vertex and the connections they represent provides the defenders with a great understanding of the motivations, techniques, tools, and target profiles of the attacker, which results in a better understanding of the threat landscape.
 
 ### **2. What challenges did you face in identifying each vertex?**
-The biggest challenge was identifying the exact boundaries between **infrastructure** and **capability**. Many tools or techniques used by attackers, such as Remote Access Trojans (RATs) and VPNs, could be classified as both infrastructure and capability depending on their use. Additionally, attribution to a specific group like APT29 or Sandworm was complicated by the indirect references in some reports and the involvement of multiple cyber groups. Cross-referencing the report details helped clarify these components.
+The largest concern was to establish the specific boundaries of infrastructure and capability. Such a number of tools or techniques, as Remote Access Trojans (RAT), VPNs, etc., might be categorized as both infrastructure and capability depending on usage. Also, the fact that some of the reports were indirect text is what complicated the attribution to a particular group of APT29 or Sandworm and there are several cyber groups involved. The comparison of the report contents facilitated the explanation of these parts.
 
 ### **3. How could this model support proactive defense strategies?**
-The model enables defenders to predict future attack vectors by identifying patterns in adversary tactics, techniques, and procedures (TTPs). By mapping out adversary actions, infrastructure, and capabilities, organizations can better anticipate where attacks might occur and prioritize defense measures accordingly. Proactive defense strategies could include strengthening network segmentation, patching known vulnerabilities, and deploying monitoring tools tailored to detect the tools and techniques identified in the model.
+The model allows defenders to understand the attack directions in the future by finding patterns in the tactics, techniques, and procedures (TTPs) of attackers. Mapping adversary actions, infrastructure and capabilities will enable organizations to anticipate better the places of attack and focus on defence needs. Active defense measures might involve enhanced network partitioning, closing up the identified vulnerabilities, and imposing monitoring instruments that are customized to recognize the tools and techniques that were recognized in the model.
 
 ---
 
