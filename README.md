@@ -45,3 +45,6 @@ The model allows defenders to understand the attack directions in the future by 
 
 ---
 
+## Reference
+
+https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-110a
