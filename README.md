@@ -8,7 +8,7 @@ The following analysis is based on the CISA Advisory **AA22-110A: 2022 Russian C
 |----------------|---------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | **Adversary**  | Russian state-sponsored cyber actors (APT29, Sandworm)             | The CISA report identifies APT29 and Sandworm as Russian cyber actors affiliated with the Russian intelligence services (SVR, GRU). |
 | **Infrastructure** | Russian-controlled infrastructure (VPN services, RATs, IT/OT systems) | The report highlights the use of VPNs, RATs, and vulnerabilities in critical infrastructure (IT/OT systems) exploited by Russian actors. |
-| **Capability** | Exploiting vulnerabilities (Log4j), credential dumping, ransomware, data exfiltration | The report identifies techniques like exploiting vulnerabilities (Log4j), credential dumping, ransomware deployment, and data exfiltration. |
+| **Capability** | Exploiting vulnerabilities, credential dumping, ransomware, data exfiltration | The report identifies techniques like exploiting vulnerabilities, credential dumping, ransomware deployment, and data exfiltration. |
 | **Victim**     | U.S. critical infrastructure organizations (energy, communications, manufacturing) | CISA focuses on attacks against U.S. critical infrastructure sectors including energy, communications, and manufacturing. |
 
 ---
@@ -17,13 +17,13 @@ The following analysis is based on the CISA Advisory **AA22-110A: 2022 Russian C
 
 The targeted threat actor, which was assessed in this report, is an affiliated cyber group sponsored by a Russian state, namely **APT29 (Cozy Bear)** and **Sandworm**. These teams are part of the **SVR (Russian Foreign Intelligence Service)** and the **GRU (Russian Military Intelligence)**, and have been engaged in cyber attacks against critical American infrastructure.
 
-They mainly use these vulnerabilities as their attack vector, including the **Log4j vulnerability**. The attackers gain access to victim networks without authorization by using **Remote Access Trojans (RATs)** and **VPN services**. Upon entry, they engage in **credential dumping** and install **ransomware** to disrupt and steal sensitive data.
+They mainly use these vulnerabilities as their attack vector, including the **vulnerability**. The attackers gain access to victim networks without authorization by using **Remote Access Trojans (RATs)** and **VPN services**. Upon entry, they engage in **credential dumping** and install **ransomware** to disrupt and steal sensitive data.
 
 ### Diamond Model Analysis:
 The opponent here is a **Russian state-sponsored cyber-unit**, which is known for complex attacks against critical infrastructure. They have a compromised infrastructure of **VPNs**, **RATs**, and **IT/OT systems vulnerabilities**. Their general skills include exploiting popular vulnerabilities, mounting credential-based attacks, installing ransomware, and stealing data. The main targets of these attacks are **U.S. critical infrastructure** industries such as energy, communications, and manufacturing.
 
 **Mitigation Strategies** provided by CISA include:
-- **Timely vulnerability patches**, especially for Log4j
+- **Timely vulnerability patches**
 - **OT and IT network segmentation**
 - **Multi-factor authentication** when accessing the network remotely
 - **Continuous monitoring** of unusual operations
