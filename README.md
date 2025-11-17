@@ -2,14 +2,13 @@
 
 ## Task 3: Diamond Model Vertex Extraction
 
-The following analysis is based on the CISA Advisory **AA22-110A: 2022 Russian Cyber Activity Targeting U.S. Critical Infrastructure**.
+The following analysis is based on the CISA Advisory AA22-110A: 2022 Russian Cyber Activity Targeting U.S. Critical Infrastructure.
 
-| **Vertex**     | **Extracted Information**                                           | **Supporting Evidence from Report**                                                                                              |
-|----------------|---------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
-| **Adversary**  | Russian state-sponsored cyber actors (APT29, Sandworm)             | The CISA report identifies APT29 and Sandworm as Russian cyber actors affiliated with the Russian intelligence services (SVR, GRU). |
-| **Infrastructure** | Russian-controlled infrastructure (VPN services, RATs, IT/OT systems) | The report highlights the use of VPNs, RATs, and vulnerabilities in critical infrastructure (IT/OT systems) exploited by Russian actors. |
-| **Capability** | Exploiting vulnerabilities (Log4j), credential dumping, ransomware, data exfiltration | The report identifies techniques like exploiting vulnerabilities (Log4j), credential dumping, ransomware deployment, and data exfiltration. |
-| **Victim**     | U.S. critical infrastructure organizations (energy, communications, manufacturing) | CISA focuses on attacks against U.S. critical infrastructure sectors including energy, communications, and manufacturing. |
+Vertex	Extracted Information	Supporting Evidence from Report
+Adversary	Russian state-sponsored cyber actors (APT29, Sandworm)	The CISA report identifies APT29 and Sandworm as Russian cyber actors affiliated with the Russian intelligence services (SVR, GRU).
+Infrastructure	Russian-controlled infrastructure (VPN services, RATs, IT/OT systems)	The report highlights the use of VPNs, RATs, and vulnerabilities in critical infrastructure (IT/OT systems) exploited by Russian actors.
+Capability	Exploiting vulnerabilities (Log4j), credential dumping, ransomware, data exfiltration	The report identifies techniques like exploiting vulnerabilities (Log4j), credential dumping, ransomware deployment, and data exfiltration.
+Victim	U.S. critical infrastructure organizations (energy, communications, manufacturing)	CISA focuses on attacks against U.S. critical infrastructure sectors including energy, communications, and manufacturing.
 
 ---
 
