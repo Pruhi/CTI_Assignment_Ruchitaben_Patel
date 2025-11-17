@@ -2,7 +2,7 @@
 
 ## Task 3: Diamond Model Vertex Extraction
 
-The following analysis is based on the CISA Advisory AA22-110A: 2022 Russian Cyber Activity Targeting U.S. Critical Infrastructure.
+The following analysis is based on the CISA Advisory**AA22-110A: 2022 Russian Cyber Activity Targeting U.S. Critical Infrastructure**.
 
 | **Vertex**     | **Extracted Information**                                           | **Supporting Evidence from Report**                                                                                              |
 |----------------|---------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
